@@ -15,42 +15,42 @@ M.palette = {
   ---------------------------------------------------------------------------
   -- CORE FOREGROUNDS (bright → dim)
   -- fg0: Maximum contrast foreground (headings, strong emphasis)
-  fg0 = "#FFFFFF",
+  fg0 = "#f1f1f1",
   -- fg1: Primary text (Normal fg). Your main readable color.
-  fg1 = "#EAEAEA",
+  fg1 = "#d7accd",
   -- fg2: Secondary text (less important content, doc strings, mild dim)
-  fg2 = "#BEBEBE",
+  fg2 = "#a7a7a7",
   -- fg3: Tertiary / subtle text (line numbers, inactive, meta info)
   fg3 = "#8A8A8D",
 
   ---------------------------------------------------------------------------
   -- SELECTION & MISC
   -- selbg: Visual selection background, also used for inverse accents
-  selbg = "#262626",
+  selbg = "#d7accd",
   -- selfg: Foreground inside selected regions (ensure contrast vs selbg)
-  selfg = "#EAEAEA",
+  selfg = "#121212",
   -- comment: Comment text + doc annotations (generally muted)
   comment = "#8A8A8D",
 
   ---------------------------------------------------------------------------
   -- ACCENT / SEMANTIC COLOR SLOTS
   -- color1: Error / critical / strong statement (used for errors, statements, git removed)
-  color1 = "#FF3E55",
+  color1 = "#ca2edc",
   -- color2: Primary accent / info highlight (mode indicators, roots, success/add)
-  color2 = "#00D6D1",
+  color2 = "#8673d4",
   -- color3: Attention / todo / highlight matches (TODO tags, search matches)
-  color3 = "#FFD447",
+  color3 = "#b683c3",
   -- color4: Modified / constant / neutral warm accent (constants, modified files)
-  color4 = "#5A7CFF",
+  color4 = "#7ea7c9",
   -- color5: Type / secondary accent / soft alert (types, replace mode, interface)
-  color5 = "#FF7DEB",
+  color5 = "#ff4da6",
   -- color6: Keywords / strong structural tokens / alternate error (keywords, visual mode bg, directives)
-  color6 = "#4CFF8F",
+  color6 = "#8adb8a",
 
   ---------------------------------------------------------------------------
   -- UI DECORATIVE & LOW EMPHASIS ELEMENTS
   -- uic1: Borders, separators, guides, non-content structural UI
-  uic1 = "#5C6370",
+  uic1 = "#ff9acb",
 }
 
 function M.apply()
